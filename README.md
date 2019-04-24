@@ -55,3 +55,19 @@ react-native run-android
 - app.json [应用配置（如：应用名称）]
 - index.js [项目主入口]
 ```
+
+## 修改主题
+
+本 DEMO 用到的 `react-native-elements` UI 框架，内置了「主题」的支持，目前使用的是 `hotpink` 颜色作为主题，大家可以根据自己的具体需求作修改，具体代码如下：
+
+文件：App.js
+
+```js
+const theme = {
+  colors: {
+    primary: 'hotpink',
+  },
+};
+```
+
+主题配置文档：[The Theme Object](https://react-native-training.github.io/react-native-elements/docs/customization.html#the-theme-object)
