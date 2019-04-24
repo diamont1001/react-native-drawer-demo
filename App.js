@@ -87,7 +87,13 @@ const MyDrawerNavigator = createDrawerNavigator({
 const MySwitchNavigator = createSwitchNavigator({
   AuthLoading: AuthLoadingScreen, // 初始化，查询登录状态过程，loading
   App: MyDrawerNavigator, // 已登录的用户，进入应用界面
-  Auth: AuthScreen, // 未登录，进入登录界面
+  Auth: (props => { // 未登录，进入登录界面
+    return (
+      <ThemeProvider theme={theme}>
+        <AuthScreen {...props}/>
+      </ThemeProvider>
+    );
+  })
 }, {
   initialRouteName: 'AuthLoading',
 });
