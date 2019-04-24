@@ -1,3 +1,5 @@
+# react-native-drawer-demo
+
 ## 依赖一览
 
 本 DEMO 为实现一种通用的类似探探APP的左右划屏的交互UI框架，有新APP开发需求的，可以直接 clone 后继续开发。
