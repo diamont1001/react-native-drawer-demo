@@ -18,8 +18,8 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class SettingScreen extends Component<Props> {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
 
   _logoutAsync = async () => {

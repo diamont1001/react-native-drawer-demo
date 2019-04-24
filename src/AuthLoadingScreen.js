@@ -10,8 +10,8 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 type Props = {};
 export default class AuthLoadingScreen extends Component<Props> {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this._bootstrapAsync();
   }
 

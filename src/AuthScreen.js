@@ -11,8 +11,8 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 type Props = {};
 export default class AuthScreen extends Component<Props> {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       loading: false,
@@ -32,8 +32,8 @@ export default class AuthScreen extends Component<Props> {
       loading: true,
     })
 
-    // TODO: 模拟登录，这里模拟请求服务器登录，耗时1200ms
-    await this.mySleep(1200);
+    // TODO: 模拟登录，这里模拟请求服务器登录，耗时800ms
+    await this.mySleep(800);
 
     this.setState({
       loading: false,
