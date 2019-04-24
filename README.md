@@ -8,6 +8,8 @@
 
 ## 效果预览
 
+基于react-native实现的，类似探探的左右划屏交互（Drawer）APP开发原型，效果：
+
 <img width="250px" src="https://raw.githubusercontent.com/diamont1001/react-native-drawer-demo/master/docs/images/preview.gif" />
 
 ## 依赖一览
