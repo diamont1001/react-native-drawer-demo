@@ -2,9 +2,8 @@
 
 ## 效果预览
 
-![](https://user-images.githubusercontent.com/7159888/56631612-9e5d2280-6688-11e9-8a37-801736ad1dea.png)
-
-![](https://user-images.githubusercontent.com/7159888/56631617-a2894000-6688-11e9-8886-407dd14e4080.png)
+<img width="220px" align="left" src="https://user-images.githubusercontent.com/7159888/56631612-9e5d2280-6688-11e9-8a37-801736ad1dea.png" />
+<img width="220px" src="https://user-images.githubusercontent.com/7159888/56631617-a2894000-6688-11e9-8886-407dd14e4080.png" />
 
 ## 依赖一览
 
