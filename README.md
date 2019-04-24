@@ -1,12 +1,16 @@
 # react-native-drawer-demo
 
+`react-native` 对于刚入门的新手来说，免不了会碰到很多意想不到的问题，特别是在各种现有的框架（UI框架/导航框架等）的选择上会有不清楚，就算是选择好了框架，在接入的时候往往也会遇到很多问题。
+
+本 DEMO 参考「探探APP」的交互方式，实现了一个基于 `Drawer` 效果的 APP 原型，另外选用了流行的 UI 框架 `react-native-elements`，让后续的开发更加简洁。
+
+如果你有新 APP 的需求，而且 UI 交互跟这个类似，完成可以 clone 代码后直接进行业务的开发，免去了前期的框架的调试和各种基础框架的融合。
+
 ## 效果预览
 
 <img width="250px" src="https://raw.githubusercontent.com/diamont1001/react-native-drawer-demo/master/docs/images/preview.gif" />
 
 ## 依赖一览
-
-本 DEMO 为实现一种通用的类似探探APP的左右划屏的交互UI框架，有新APP开发需求的，可以直接 clone 后继续开发。
 
 | # | 所用框架/库及版本 |
 | ------ | ------ |
@@ -18,7 +22,7 @@
 
 参考：[React Native 中文网：搭建开发环境](https://reactnative.cn/docs/getting-started/)
 
-本 DEMO 使用了 `react-native` 0.59.55 版本，RN iOS 0.45以上版本开始需要依赖一些第三方编译库，这些库在国内下载都非常困难（一般的翻墙工具都很难下载），因此在编辑之前需要先手动从「百度网盘」上下载一些库到本地，再进行编辑即可。
+本 DEMO 基于 `react-native` 0.59.55 版本，RN iOS 0.45以上版本开始需要依赖一些第三方编译库，这些库在国内下载都非常困难（一般的翻墙工具都很难下载），因此在编辑之前需要先手动从「百度网盘」上下载一些库到本地，再进行编辑即可。
 
 具体操作参考：[iOS RN 0.45以上版本所需的第三方编译库(boost等)](http://bbs.reactnative.cn/topic/4301/ios-rn-0-45%E4%BB%A5%E4%B8%8A%E7%89%88%E6%9C%AC%E6%89%80%E9%9C%80%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E7%BC%96%E8%AF%91%E5%BA%93-boost%E7%AD%89)
 
