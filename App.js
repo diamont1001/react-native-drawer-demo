@@ -15,6 +15,8 @@ import MenuScreen from './src/MenuScreen';
 import HomeScreen from './src/HomeScreen';
 import SettingScreen from './src/SettingScreen';
 import HelpScreen from './src/HelpScreen';
+import MainHeader from './src/components/MainHeader';
+
 import {displayName as DisplayName} from './app.json';
 
 // UI主题
@@ -41,11 +43,7 @@ const MyDrawerNavigator = createDrawerNavigator({
     screen: (props => {
       return (
         <ThemeProvider theme={theme}>
-          <Header
-            leftComponent={<Icon name={'menu'} color={'#fff'} onPress={props.navigation.openDrawer} />}
-            centerComponent={{ text: DisplayName, style: { color: '#fff' } }}
-            // rightComponent={{ icon: 'home', color: '#fff' }}
-          />
+          <MainHeader {...props} />
           <ScrollView style={styles.container}>
             <HomeScreen {...props}/>
           </ScrollView>
@@ -57,10 +55,7 @@ const MyDrawerNavigator = createDrawerNavigator({
     screen: (props => {
       return (
         <ThemeProvider theme={theme}>
-          <Header
-            leftComponent={<Icon name={'menu'} color={'#fff'} onPress={props.navigation.openDrawer} />}
-            centerComponent={{ text: DisplayName, style: { color: '#fff' } }}
-          />
+          <MainHeader {...props} />
           <ScrollView style={styles.container}>
             <SettingScreen {...props}/>
           </ScrollView>
@@ -72,10 +67,7 @@ const MyDrawerNavigator = createDrawerNavigator({
     screen: (props => {
       return (
         <ThemeProvider theme={theme}>
-          <Header
-            leftComponent={<Icon name={'menu'} color={'#fff'} onPress={props.navigation.openDrawer} />}
-            centerComponent={{ text: DisplayName, style: { color: '#fff' } }}
-          />
+          <MainHeader {...props} />
           <ScrollView style={styles.container}>
             <HelpScreen {...props}/>
           </ScrollView>
