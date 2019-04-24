@@ -46,11 +46,14 @@ react-native run-android
 
 ```
 - src [应用代码]
+    - components [组件]
+        - MainHeader [主头部组件]
+    - AuthLoadingScreen [LOADING页面]
+    - AuthScreen [登录页面]
     - HomeScreen.js [首页]
     - SettingScreen.js [配置页面]
     - HelpScreen.js [帮助页面]
     - MenuScreen.js [左边栏菜单页]
-    
 - APP.js [程序主入口]
 - app.json [应用配置（如：应用名称）]
 - index.js [项目主入口]
