@@ -14,6 +14,13 @@
 
 <img width="250px" src="https://raw.githubusercontent.com/diamont1001/react-native-drawer-demo/master/docs/images/preview.gif" />
 
+## 基础功能实现
+
+- [x] 登录模块
+- [x] UI主题
+- [x] 左右划屏交互（Drawer）
+- [x] 界面间切换
+
 ## 依赖一览
 
 | # | 所用框架/库及版本 |
