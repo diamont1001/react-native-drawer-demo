@@ -1,5 +1,11 @@
 # react-native-drawer-demo
 
+## 效果预览
+
+![](https://user-images.githubusercontent.com/7159888/56631612-9e5d2280-6688-11e9-8a37-801736ad1dea.png)
+
+![](https://user-images.githubusercontent.com/7159888/56631617-a2894000-6688-11e9-8886-407dd14e4080.png)
+
 ## 依赖一览
 
 本 DEMO 为实现一种通用的类似探探APP的左右划屏的交互UI框架，有新APP开发需求的，可以直接 clone 后继续开发。
