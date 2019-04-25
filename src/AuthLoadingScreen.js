@@ -33,11 +33,11 @@ export default class AuthLoadingScreen extends Component<Props> {
     )
   }
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
-    backgroundColor: 'black',
-    opacity: 0.9,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-})
+});
