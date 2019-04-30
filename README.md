@@ -20,13 +20,17 @@
 - [x] UI主题
 - [x] 左右划屏交互（Drawer）
 - [x] 界面间切换
-- [ ] 数据管理（Redux?）
+- [ ] 数据管理（Redux? MobX?）
 
 ### 关于 Redux
 
 Redux 的创造者 Dan Abramov 说过一句话："只有遇到 React 实在解决不了的问题，你才需要 Redux 。"，所以，并不是所有的应用都需要 redux 的，，如果你的 UI 层非常简单而且没有很多互动，那么就没必要添加 Redux 来增加复杂性。具体要不要看这个问题，可以参考阮一峰老师的文章「[Redux 入门教程（一）：基本用法](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)」前面章节。
 
-所以，本原型 demo 暂时不考虑把 Redux 添加上去。
+### Redux or MobX?
+
+其实两个都是很好的状态管理工具，都各有千秋。关于这两个的比较，可以参考文章：
+
+[MobX vs Redux: Comparing the Opposing Paradigms - React Conf 2017 纪要](https://zhuanlan.zhihu.com/p/25989654)
 
 ## 依赖/文档
 
