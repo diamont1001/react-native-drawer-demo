@@ -8,15 +8,15 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, View} from 'react-native';
 import {ThemeProvider, Header, Icon} from 'react-native-elements';
 
-import {displayName as DisplayName} from '../../app.json';
+import {displayName as _displayName} from '../../app.json';
 
 type Props = {};
 export default class MainHeader extends Component<Props> {
   render() {
     return (
       <Header
-        leftComponent={<Icon name={'menu'} color={'#fff'} onPress={this.props.navigation.openDrawer} />}
-        centerComponent={{ text: DisplayName, style: { color: '#fff' } }}
+        leftComponent={<Icon name={'menu'} onPress={this.props.navigation.openDrawer} />}
+        centerComponent={{ text: _displayName, style: { color: '#fff' } }}
         // rightComponent={{ icon: 'home', color: '#fff' }}
       />
     )

@@ -20,6 +20,7 @@
 - [x] UI主题
 - [x] 左右划屏交互（Drawer）
 - [x] 界面间切换
+- [x] 二级页面（Stack）
 - [ ] 数据管理（Redux? MobX?）
 
 ### 关于 Redux
@@ -67,12 +68,15 @@ react-native run-android
 - src [应用代码]
     - components [组件]
         - MainHeader [主头部组件]
+    - theme [主题]
+        - index.js [主题样式定义]
     - AuthLoadingScreen [LOADING页面]
     - AuthScreen [登录页面]
     - HomeScreen.js [首页]
     - SettingScreen.js [配置页面]
     - HelpScreen.js [帮助页面]
     - MenuScreen.js [左边栏菜单页]
+    - DetailStack.js [二级页面-详情页]
 - APP.js [程序主入口]
 - app.json [应用配置（如：应用名称）]
 - index.js [项目主入口]

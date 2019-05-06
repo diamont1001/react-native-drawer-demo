@@ -5,15 +5,22 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, View} from 'react-native';
+import {Platform, StyleSheet, ScrollView, View} from 'react-native';
 import {Text} from 'react-native-elements';
+
+import {AppTheme} from './theme';
+
+import MainHeader from './components/MainHeader';
 
 type Props = {};
 export default class HelpScreen extends Component<Props> {
   render() {
     return (
-      <View>
-        <Text style={styles.welcome}>HelpScreen</Text>
+      <View style={AppTheme.pageContainer}>
+        <MainHeader {...this.props} />
+        <ScrollView>
+          <Text style={styles.welcome}>HelpScreen</Text>
+        </ScrollView>
       </View>
     )
   }

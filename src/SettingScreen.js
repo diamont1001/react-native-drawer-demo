@@ -9,6 +9,10 @@ import {Platform, StyleSheet, ScrollView, View} from 'react-native';
 import {Text, Button} from 'react-native-elements';
 import AsyncStorage from '@react-native-community/async-storage';
 
+import {AppTheme} from './theme';
+
+import MainHeader from './components/MainHeader';
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -30,13 +34,16 @@ export default class SettingScreen extends Component<Props> {
 
   render() {
     return (
-      <View>
-        <Text style={styles.welcome}>SettingScreen</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-        <View>
-          <Button title="退出登录" onPress={this._logoutAsync}/>
-        </View>
+      <View style={AppTheme.pageContainer}>
+        <MainHeader {...this.props} />
+        <ScrollView>
+          <Text style={styles.welcome}>SettingScreen</Text>
+          <Text style={styles.instructions}>To get started, edit App.js</Text>
+          <Text style={styles.instructions}>{instructions}</Text>
+          <View>
+            <Button title="退出登录" onPress={this._logoutAsync}/>
+          </View>
+        </ScrollView>
       </View>
     )
   }
