@@ -40,7 +40,7 @@ Redux 的创造者 Dan Abramov 说过一句话："只有遇到 React 实在解�
 | 基础框架 | [react-native 0.59.5](https://github.com/mochajs/mocha) |
 | 导航 | [react-navigation 3.8.1](https://reactnavigation.org/en/)，使用了其中的 `Drawer navigation` |
 | UI | [react-native-elements 1.1.0](https://github.com/react-native-training/react-native-elements) |
-| Icon | [react-native-vector-icons 6.4.2](https://oblador.github.io/react-native-vector-icons/) |
+| Icon | [react-native-vector-icons 6.4.2](https://oblador.github.io/react-native-vector-icons/) 建议用 `MaterialIcons` |
 
 ## 环境搭建
 
